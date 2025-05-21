@@ -151,7 +151,46 @@
               "version": "1.0.0"
             }			
           ]
-        }		
+        },
+        {
+          "name": "CH32 MCU EVT Boards",
+          "architecture": "ch32v",
+          "version": "1.0.5",
+          "category": "Contributed",
+          "url": "https://codeload.github.com/delfer/arduino_core_ch32/zip/refs/tags/1.0.5",
+          "archiveFileName": "arduino_core_ch32-1.0.5.zip",
+          "checksum": "SHA-256:89AC0743D3DCA07A2F23D03E2619B0F679586A881A1689AC47DFAC788BFDE44F",
+          "size": "980095",
+          "boards": [
+            {"name": "CH32X035 EVT Board"},
+            {"name": "CH32V30x EVT Board"},
+            {"name": "CH32V20x EVT Board"},
+            {"name": "CH32V10x EVT Board"},
+            {"name": "CH32V00x EVT Board"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "WCH",
+              "name": "riscv-none-embed-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "WCH",
+              "name": "openocd",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "WCH",
+              "name": "beforeinstall",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "WCH",
+              "name": "wchisp",
+              "version": "0.3.0"
+            }
+          ]
+        }
       ],
       "tools": [
         {
@@ -237,7 +276,49 @@
               "size": "507269"
             }				
           ]
-        }		
+        },
+        {
+          "name": "wchisp",
+          "version": "0.3.0",
+          "systems":
+          [
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-win-x64.zip",
+              "archiveFileName": "wchisp-v0.3.0-win-x64.zip",
+              "checksum": "SHA-256:EBA605BBC62F217F6454E7236D04EF1B8A6B4396DD7CE8DC26FC83016213C3AA",
+              "size": "681807"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-linux-x64.tar.gz",
+              "archiveFileName": "wchisp-v0.3.0-linux-x64.tar.gz",
+              "checksum": "SHA-256:67E3D4EB0FFD3CC610D8927E3C3F452E2110531A3F14405DCAEF87DF219F200D",
+              "size": "883953"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-linux-aarch64.tar.gz",
+              "archiveFileName": "wchisp-v0.3.0-linux-aarch64.tar.gz",
+              "checksum": "SHA-256:3D7477C05C65F69091D041623A06C558C549DC27BFE2A043D9325F310F2EE40F",
+              "size": "883441"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-macos-x64.tar.gz",
+              "archiveFileName": "wchisp-v0.3.0-macos-x64.tar.gz",
+              "checksum": "SHA-256:EBBF46B0C64BB356CD58DA2683C8809C50BDFE2181969F544933D24C8846F608",
+              "size": "830611"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/ch32-rs/wchisp/releases/download/v0.3.0/wchisp-v0.3.0-macos-arm64.tar.gz",
+              "archiveFileName": "wchisp-v0.3.0-macos-arm64.tar.gz",
+              "checksum": "SHA-256:A17DD422F7697BFE35C7C837C16BF99A7193300BCDC276C1253332B3A023E936",
+              "size": "804543"
+            }		
+          ]
+        }
       ]
     }
   ]
